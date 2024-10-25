@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Color del texto */
+}
+#principal {
+    position: relative;
+    text-align: center;
+    background-image: url('img/fondo_principal.jpg');
+    background-size: cover;  /* Asegura que la imagen cubra todo el fondo */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+    min-height: 100vh;  /* Asegura que el fondo cubra toda la altura de la pantalla */
+}
+#principal img {
+    width: 100%;  
+}
+#central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.55); /* Fondo blanco semitransparente */
+    padding: 30px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 15); /* Sombra suave */
+    max-width: 800px; /* Ancho máximo */
+}
+.titulo {
+    font-size: 2.8em; /* Tamaño grande para llamar la atención */
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: green ; 
+}
+.presentacion {
+    font-size: 1.2em; /* Tamaño del texto de presentación */
+    margin-bottom: 20px;
+    line-height: 1.5; /* Interlineado */
+}
+nav {
+    margin: 15px 0;
+}
+.menu1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.menu1 li {
+    margin: 30px 15px; /* Espacio entre elementos */
+}
+.menu1 a {
+    text-decoration: none;
+    color: #333; /* Color del texto del menú */
+    font-weight: bold;
+    padding: 10px 20px; /* Espacio interior del botón */
+    border: 2px solid transparent; /* Borde inicial transparente */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+}
+.menu1 a:hover {
+    background-color: #C0D904; /* Color de fondo al pasar el ratón */
+    color: white; /* Color del texto al pasar el ratón */
+    border-color: #C0D904; /* Borde que coincide con el fondo */
+}
+.redes1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.redes1 li {
+    margin: 0 10px; /* Espacio entre íconos */
+}
+.redes1 a {
+    text-decoration: none;
+    font-size: 2em; /* Tamaño de los iconos de redes */
+    color: #fff; /* Color del ícono */
+    background-color: #C0D904; /* Color de fondo */
+    border-radius: 50%; /* Hace que el ícono sea circular */
+    padding: 15px; /* Espacio interior para el círculo */
+    transition: background-color 0.3s; /* Transición suave */
+}
+.redes1 a:hover {
+    color: #fff;
+    background-color: grey; /* Color al pasar el ratón */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 15); /* Sombra suave */
+}
+h1{
+    font-size: 2.8em; /* Tamaño grande para llamar la atención */
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: green ; 
+}
+
+
+/* Encabezado */
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.55); /* Fondo blanco semitransparente */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 15); /* Sombra suave */
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+/* Sección principal */
+section {
+    padding: 20px;
+}
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.55); /* Fondo blanco semitransparente */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 15); /* Sombra suave */
+}
+article h3 {
+    color: #343a40;
+    font-size: 1.5em;
+    text-align: center;
+}
+/* Ajustar el tamaño de la imagen en la sección "¿Qué es Falabella?" */
+.que_es img {
+    max-width: 30%; /* Ajusta el tamaño al 30% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+/* Imágenes */
+.historia img {
+    max-width: 250px; /* Cambia el tamaño según lo desees */
+    height: auto;
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-right: 15px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 15px; /* Espacio inferior opcional */
+}
+footer {
+    background-color: #C0D904;
+    color: white;
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+ }
+
+ 
